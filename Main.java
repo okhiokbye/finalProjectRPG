@@ -5,7 +5,7 @@ public class Main {
    to make battle:
     everytinme you enter the same square as a monster, we start a text battle with the generic stuff, populate the map with monsters, check at end of each battle if there are no monsters in the level, then 
    todays goal: make the character move
-   tomorrows goal: detect if moved into a battle room, then print start battle
+   tomorrows goal: detect if moved into a monster, then print start battle
    day after tomorrows goal: do the battle (simple attack and dodge)
    if you have enough time the lobby isnt that hard actually
     
