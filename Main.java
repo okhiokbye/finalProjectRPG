@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Main {
    /* TODO: make the battle happen, make ult
    to make battle:
-   use keylistener, everytinme you enter a new room, we start a text battle with the generic stuff 
+    everytinme you enter the same square as a monster, we start a text battle with the generic stuff, populate the map with monsters, check at end of each battle if there are no monsters in the level, then 
    todays goal: make the character move
    tomorrows goal: detect if moved into a battle room, then print start battle
    day after tomorrows goal: do the battle (simple attack and dodge)

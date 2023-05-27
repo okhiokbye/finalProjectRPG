@@ -2,7 +2,7 @@ import java.util.ArrayList;
 public class Player extends Entity{
   private int maxHP, atk, agility, def, ap, currentHP, skillPoints;
   private String name;
-  private int money;
+  private int money,x,y;
   private ArrayList<Item> inventory = new ArrayList<Item>();
   public Player(String name, String type ){
     super(name, 10);
@@ -120,6 +120,15 @@ public class Player extends Entity{
 public String toString(){
  return "HP: " + maxHP + "\n" +"ATK: " + atk + "\n" +"DEF: " + def + "\n" +"Agility: " + agility + "\n" +"AP: " + ap + "\n";
 }
-  
+  public void setPos(int x, int y){
+    this.x=x;
+    this.y=y;
+  }
+  public int getXPos(){
+    return x;
+  }
+  public int getYPos(){
+    return y;
+  }
   
 }
