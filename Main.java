@@ -2,7 +2,7 @@ import static java.lang.System.*;
 import java.util.Scanner;
 public class Main {
    /* TODO: make the battle happen, make ult
-   to make battle:
+   to make battle: m
     everytinme you enter the same square as a monster, we start a text battle with the generic stuff, populate the map with monsters, check at end of each battle if there are no monsters in the level, then 
    todays goal: make the character move
    tomorrows goal: detect if moved into a monster, then print start battle
