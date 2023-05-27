@@ -74,7 +74,8 @@ public class World{
       System.out.flush();  
       displayMap();
       System.out.println(p.getXPos() + "," + p.getYPos());  
-      // to commit
+      // to commit please
+      
       
     }
     while(!completed);
